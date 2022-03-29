@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: helvetica;
+  font-size: 30px;
+  background-color: #ede9f3;
+  background-image: url("data:image/svg+xml,%3Csvg width='42' height='44' viewBox='0 0 42 44' xmlns='http://www.w3.org/2000/svg'%3E%3Cg id='Page-1' fill='none' fill-rule='evenodd'%3E%3Cg id='brick-wall' fill='%23dc6d0b' fill-opacity='0.4'%3E%3Cpath d='M0 0h42v44H0V0zm1 1h40v20H1V1zM0 23h20v20H0V23zm22 0h20v20H22V23z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+.container {
+  margin: 200px auto;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+}
+
+.quote-box {
+  padding: 30px 20px;
+  margin-bottom: 20px;
+}
+#quote {
+  color: black;
+  text-align: center;
+}
+#author {
+  float: right;
+  color: #888;
+  font-weight: bold;
+  font-style: italic;
+  margin-top: 10px;
+}
+
+#btn {
+  align-self: center;
+  border: 2px solid #666;
+  padding: 10px 15px;
+  text-transform: uppercase;
+  color: #666;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#btn:focus {
+  outline: none;
+}
